@@ -8,7 +8,7 @@ import connectionStudyJdbc.ConnectionFactory;
 
 public class CompradorDB {
 		public void save() {
-			String sql = "INSERT INTO `agencia`.`comprador` (`cpf`, `nome`) VALUES ('084.512.809.43', 'Michelle Olveira');";
+			String sql = "INSERT INTO `agencia`.`comprador` (`cpf`, `nome`) VALUES ('123.456.789-10', 'Michelle Olveira');";
 			Connection conn = ConnectionFactory.getConnection();
 			
 			try {
